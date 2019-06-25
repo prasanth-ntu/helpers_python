@@ -22,9 +22,6 @@ def isNotebookFn():
     except NameError:
         return False     # Other type (Probabably standard python interpreter)
 
-
-
-
 if __name__ == "__main__":
     isNotebook = isNotebookFn()
 
