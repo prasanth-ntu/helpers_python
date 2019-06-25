@@ -8,7 +8,7 @@ def isNotebookFn():
 
     Return
     ------
-    bool - True if the code is executed in a Jupyter notebook
+    bool - `True` if the code is executed in a Jupyter notebook, otherwise `False` 
     '''
     try:
         shell = get_ipython().__class__.__name__
