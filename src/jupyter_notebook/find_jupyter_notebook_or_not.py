@@ -1,5 +1,8 @@
-# Reference [1]: https://stackoverflow.com/questions/35595766/matplotlib-line-magic-causes-syntaxerror-in-python-script
-# Reference [2]: https://stackoverflow.com/questions/15411967/how-can-i-check-if-code-is-executed-in-the-ipython-notebook
+# Title         : Find jupyter kernel or standard python interpreter
+# Date Added    : 25 Jun 2019
+# Date Modified : 25 Jun 2019
+# Reference [1] : https://stackoverflow.com/questions/35595766/matplotlib-line-magic-causes-syntaxerror-in-python-script
+# Reference [2] : https://stackoverflow.com/questions/15411967/how-can-i-check-if-code-is-executed-in-the-ipython-notebook
 
 def isNotebookFn():
     '''
