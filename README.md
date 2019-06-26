@@ -24,3 +24,7 @@ Additional Resources: [My Matplotlib Introduction Notes](https://prasanth-ntu.gi
 
 ### Utils
 - [smooth_a_curve.py](src/ML_and_DL/utils/smooth_a_curve.py) - Uses average filtering (by convolution window) to smooth the signals
+
+## Argparse
+- [Link](src/argparse_notes)
+- [argparse_example.py](src/argparse_notes/argparse_example.py) - Shows how to use argparse to pass arguments to script from terminal
