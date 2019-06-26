@@ -1,17 +1,7 @@
 # helpers_python
 Contains helper code for random stuff that might be useful one day or another.
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [helpers_python](#helperspython)
-	- [Jupyter Notebook](#jupyter-notebook)
-	- [Pickle](#pickle)
-	- [Tensorflow](#tensorflow)
-	- [plots](#plots)
-	- [ML and DL](#ml-and-dl)
-		- [Utils](#utils)
-
-<!-- /TOC -->
 ## Jupyter Notebook
 - [Link](src/jupyter_notebook)
 -  [find_jupyter_notebook_or_not.py](src/jupyter_notebook/find_jupyter_notebook_or_not.py) - Checks if code is executed in a Jupyter notebook or not
@@ -22,12 +12,6 @@ Contains helper code for random stuff that might be useful one day or another.
 
 ## Tensorflow
 - [Link](src/tensorflow_notes)
-- [helpers_python](#helperspython)
-	- [Jupyter Notebook](#jupyter-notebook)
-	- [Pickle - [Link](src/pickle_notes)](#pickle-linksrcpicklenotes)
-	- [Tensorflow](#tensorflow)
-	- [plots -](#plots-)
-
 
 ## plots
 - [Link](src/plots)
