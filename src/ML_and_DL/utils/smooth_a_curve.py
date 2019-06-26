@@ -21,12 +21,19 @@ def smooth(y, box_pts=10):
     y_smooth : 1D numpy array
         Smooted curve using moving average
     '''
+    if len(y) == 0:
+        print ('[WARN] : The "y" var is empty')
+        return np.array([])
+
     box = np.ones(box_pts)/box_pts
 
     # For first box_pts, we calculate the average manually #
     y_smooth = []
     for i in range(1,box_pts):
          y_smooth.append(sum(y[0:i])/len(y[0:i]))
+         # If lenght of signal is less than conv box length, return early
+         if i == len(y):
+             return np.array(y_smooth)
 
     # mode='valid' => Convolution product is only given for points where signals (y and box) completely overlap #
     y_smooth_valid = np.convolve(y,box,mode='valid')
