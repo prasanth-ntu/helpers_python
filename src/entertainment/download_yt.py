@@ -23,8 +23,8 @@ Source: https://pytube.io/en/latest/user/streams.html#downloading-streams
 import sys
 
 from pytube import YouTube
-import ipdb
 
+# import ipdb
 print ('[INFO] Number of arguments:', len(sys.argv), 'arguments.')
 print ('[INFO] Argument List:', str(sys.argv))
 
@@ -34,8 +34,6 @@ else:
     link = sys.argv[1]
 link = link.strip()
 print (link)
-
-# ipdb.set_trace()
 
 yt = YouTube(link)
 
@@ -49,7 +47,7 @@ assert "audio/mp4"  == stream.mime_type
 # Downloading streams
 path_to_saved_video = stream.download()
 print ('[INFO] Download completed successfully.')
-ipdb.set_trace()
+
 
 '''
 Source: https://pytube.io/en/latest/api.html#pytube.Stream.download
@@ -63,6 +61,7 @@ def mp4_to_mp3(mp4, mp3):
 # Convert .mp4 to .mp3
 path_to_saved_audio = path_to_saved_video.replace(".mp4", ".mp3")
 mp4_to_mp3(path_to_saved_video, path_to_saved_audio)
+
 
 '''
 Source: https://stackoverflow.com/questions/6996603/how-do-i-delete-a-file-or-folder-in-python
